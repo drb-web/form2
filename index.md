@@ -1,37 +1,52 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/drb-web/form2/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/drb-web/form2/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset ="utf-8">
+</head>
+<body>
+<h1>FORM1</hl>
+<form action ="https://www.nyl68.tw/search_num"method ="GET">
+<input type ="text"name="category">
+<input type ="submit"value="go">
+</form>
+<br>
+<hl>FORM2 category</hl>
+<form action ="https://www.my168.tw/search_num"method="GET">
+<select name ="category">
+<option value="10">10元以內禮贈品</option>
+<option value="20">20元以內禮贈品</option>
+<option value="30">30元以內禮贈品</option>
+<option value="50">50元以內禮贈品</option>
+<option value="100">100元以內禮贈品</option>
+<option value="150">150元以內禮贈品</option>
+<option value="200">200元以內禮贈品</option>
+<option value="250">250元以內禮贈品</option>
+<option value="300">300元以內禮贈品</option>
+<option value="350">350元以內禮贈品</option>
+<option value="400">400元以內禮贈品</option>
+</select>
+<input type ="submit"value ="go">
+</form>
+<br>
+<hl>FORM3</hl>
+<form action ="https://www.nyl68.tw/search_num"method ="GET">
+<input type ="text"name="key">
+<input type ="hidden"name ="cat"value="DPA">
+<input type ="submit"value="go">
+</form>
+<br>
+<hl>FORM4 url</hl>
+<form action ="https://www.nyl68.tw/search_num"method ="GET">
+<input type ="url"name="url">
+<input type ="submit"value="go">
+</form>
+<br>
+<hl>FORM5 time date tel</hl>
+<form action ="https://www.nyl68.tw/search_num"method="GET">
+<input type ="time"name="time">
+<input type ="date"name="date">
+<input type ="tel"name="tel">
+<input type ="submit"value="go">
+</form>
+</body>
+</html>
