@@ -2,6 +2,7 @@
 <html>
 <head>
 <meta charset ="utf-8">
+<title> 我的表格</title>
 </head>
 <body>
 <h1>FORM1</hl>
