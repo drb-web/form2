@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset ="utf-8">
+<meta charset="utf-8">
 <title> 我的表格</title>
 </head>
 <body>
 <h1>FORM1</hl>
-<form action ="https://www.nyl68.tw/search_num"method ="GET">
-<input type ="text"name="category">
-<input type ="submit"value="go">
+<form action="https://www.nyl68.tw/search_num"method="GET">
+<input type="text"name="category">
+<input type="submit"value="go">
 </form>
 <br>
 <hl>FORM2 category</hl>
-<form action ="https://www.my168.tw/search_num"method="GET">
-<select name ="category">
+<form action="https://www.my168.tw/search_num"method="GET">
+<select name="category">
 <option value="10">10元以內禮贈品</option>
 <option value="20">20元以內禮贈品</option>
 <option value="30">30元以內禮贈品</option>
@@ -26,28 +26,28 @@
 <option value="350">350元以內禮贈品</option>
 <option value="400">400元以內禮贈品</option>
 </select>
-<input type ="submit"value ="go">
+<input type="submit"value="go">
 </form>
 <br>
 <hl>FORM3</hl>
-<form action ="https://www.nyl68.tw/search_num"method ="GET">
-<input type ="text"name="key">
-<input type ="hidden"name ="cat"value="DPA">
-<input type ="submit"value="go">
+<form action="https://www.nyl68.tw/search_num"method="GET">
+<input type="text"name="key">
+<input type="hidden"name="cat"value="DPA">
+<input type="submit"value="go">
 </form>
 <br>
 <hl>FORM4 url</hl>
-<form action ="https://www.nyl68.tw/search_num"method ="GET">
-<input type ="url"name="url">
-<input type ="submit"value="go">
+<form action="https://www.nyl68.tw/search_num"method ="GET">
+<input type="url"name="url">
+<input type="submit"value="go">
 </form>
 <br>
 <hl>FORM5 time date tel</hl>
-<form action ="https://www.nyl68.tw/search_num"method="GET">
-<input type ="time"name="time">
-<input type ="date"name="date">
-<input type ="tel"name="tel">
-<input type ="submit"value="go">
+<form action="https://www.nyl68.tw/search_num"method="GET">
+<input type="time"name="time">
+<input type="date"name="date">
+<input type="tel"name="tel">
+<input type="submit"value="go">
 </form>
 </body>
 </html>
